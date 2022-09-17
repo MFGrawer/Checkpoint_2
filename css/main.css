@@ -1,0 +1,61 @@
+.especies {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 329px;
+    height: 510px;
+}
+
+
+.card_img {
+    width: 100%;
+    height: 240px;
+    background-image: url("");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin: 40px;
+    margin-top: 10px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.card_texto {
+    flex-direction: column;
+    width: 329px;
+    height: 255px;
+    background-color: #F4F4F4;
+    align-content: center;
+    margin: 40px;
+    margin-top: 10px;
+    border: 2px solid red;
+    border-radius: 20px;
+    
+    
+}
+
+/**
+.card_img {
+    width: 340px;
+    height: 200px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+   **/     
+   
+}
+
+.card button {
+    width: 80px;
+    height: 20px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+

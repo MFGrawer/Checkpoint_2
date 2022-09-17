@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+
+header {
+    width: 428px;
+    height: 120px; 
+    background-color: #FFFFFF;
+}
+
+header img {
+    width: 300px;
+    height: 80px;
+}    
+
+header h1 {
+    font-family: 'Indie Flower', sans-serif;
+    color: red;
+    
+}
+
+
