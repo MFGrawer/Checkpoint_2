@@ -14,20 +14,33 @@
 
 <body>
 
-    <header>
-        <div>
-            <img src="imagens/dev_of_plants_Prancheta_1.png" alt="logo">
+    <header class="cabeçalho">
+        <div class= "container">
+            <img src="imagens/dev_of_plants_Prancheta_1.png" alt="logo" class=container_imagem container_imagem-logo>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Itens</a></li>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Login</a></li>
+        <div class="container">
+            <input type="checkbox" id="menu" class="container_botao">
+            <label for="menu">
+                <span class="cabeçalho_menu_hamburguer container_imagem"></span>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Home</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Itens</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Sobre nós</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Login</a>
+                </li>
 
             </ul>
-        </nav>
+        </div>
     </header>
 
     <main>
