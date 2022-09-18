@@ -29,7 +29,7 @@
     justify-content: space-between;
     align-content: center;
     margin: 40px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     border-radius: 12px;
 }
 
@@ -50,21 +50,28 @@
 
 .card_texto p {
     text-align: center;
-    padding: 0 15px;
+    /*padding: 0 15px;*/
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .card_texto h3 {
-    text-align: center;
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 16px;
 }
 
-button {
-    width: 277px;
-    height: 58px;
+.card_texto button {
+    width: 130px;
+    height: 40px;
     background-color: #33BB69;
     color: #f4f4f4;
     border-radius: 5px;
     border: 1px solid transparent;
-    font-size: 24px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 /**
@@ -75,7 +82,9 @@ button {
     border-top-right-radius: 18px;
    **/
 
+/*pessoal, como o botão ta dentro do card texto, eu deixei o do .card button comentado, ta?!*/
 
+/*
 .card button {
     width: 80px;
     height: 20px;
@@ -86,5 +95,4 @@ button {
     margin-top: 20px;
     border-radius: 5px;
     border: 1px solid;
-}
-
+}*/
