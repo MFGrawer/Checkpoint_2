@@ -7,9 +7,8 @@
     font-family: 'roboto', sans-serif;
 }
 
-
 header {
-    width: 428px;
+    width: 100vw;
     height: 120px; 
     background-color: #FFFFFF;
 }
@@ -19,4 +18,64 @@ header img {
     height: 80px;
 }    
 
+header h1 {
+    font-family: 'Indie Flower', sans-serif;
+    color: red;
+    
+}
+.cabeçalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.cabeçalho_menu_hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/menu.png");
+    background-repeat: no-repeat;    
+    background-position: center;
+    display: inline-block;    
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.container_imagem {
+    padding: 1em;
+}
+.lista-menu {
+    width: 100vw;
+    height: 70vh;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0.5px;
+    list-style: none;
+    
+}
 
+.container_botao:checked~.lista-menu {
+    display: block;
+}
+.lista-menu_link {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.lista-menu_item {
+    padding: 0.5em;
+    background-color: #33BB69;
+    display: flex;
+    justify-content: center;    
+}
+.lista-menu_item a:hover {
+    color: fuchsia;
+}
+.container_imagem-logo {
+    width: 80vw;
+    height: 50vh;
+}
+#menu {
+    display: none;
+}
