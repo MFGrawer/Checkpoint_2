@@ -31,8 +31,6 @@
     margin: 40px;
     margin-top: 10px;
     border-radius: 12px;
-    
-
 }
 
 .card_texto {
@@ -47,6 +45,15 @@
     margin-top: 10px;
     border: 2px solid red;
     border-radius: 20px;
+    text-align: center;
+}
+
+.card_texto p {
+    text-align: center;
+    padding: 0 15px;
+}
+
+.card_texto h3 {
     text-align: center;
 }
 
