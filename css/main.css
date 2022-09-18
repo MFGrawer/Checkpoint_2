@@ -43,7 +43,7 @@
     align-content: center;
     margin: 40px;
     margin-top: 10px;
-    border: 2px solid red;
+    border: 2px solid #0B4619;
     border-radius: 20px;
     text-align: center;
 }
@@ -85,6 +85,6 @@ button {
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 5px;
-    border: 1px solid red;
+    border: 1px solid;
 }
 
