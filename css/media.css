@@ -4,7 +4,7 @@
     display:flex;
     align-items: center;
     width: 50vw;
-    margin-right: 150px;
+    margin-right: 70px;
 }
 .opções_item{
     list-style: none;
@@ -27,7 +27,7 @@
 .cabeçalho_menu_hamburguer {
     display: none;
 }
-}
+
 /*main*/
 .especies {
     width: 100vw;
@@ -37,4 +37,8 @@
 }
 .card {
     width: 23%;
+}
+.card_texto {
+    width:23%
+}
 }
