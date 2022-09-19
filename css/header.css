@@ -7,32 +7,58 @@
     font-family: 'roboto', sans-serif;
 }
 
-header {
-    width: 100vw;
-    height: 120px; 
-    background-color: #FFFFFF;
-}
-
-header img {
-    width: 300px;
-    height: 80px;
-}    
-
-header h1 {
-    font-family: 'Indie Flower', sans-serif;
-    color: red;
-    
-}
 .cabeçalho {
-    width: 100%;
+    width: 100vw;
+    height: 120px;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;  
     position: relative;
+    background-color: #FFFFFF;
 }
 .cabeçalho_menu_hamburguer {
     width: 24px;
     height: 24px;
+    background-image: url("https://raw.githubusercontent.com/MFGrawer/Checkpoint_2/main/imagens/menu.png");
+    background-repeat: no-repeat;    
+    background-position:center;
+    display: inline-block;    
+}
+.lista-menu {
+    width: 100vw;
+    height: 70vh;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0.5px;
+    list-style: none;
+    
+}
+.container_botao:checked~.lista-menu {
+    display: block;
+}
+.lista-menu_link {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.lista-menu_item {
+    padding: 0.5em;
+    background-color: #33BB69;
+    display: flex;
+    justify-content: center;    
+}
+.lista-menu_item a:hover {
+    color: fuchsia;
+}
+#menu {
+    display: none;
+
+}.container_imagem-logo {
+    width: 100%;
+    height: 100%;
+} 
+
     background-image: url("Checkpoint_2/imagens/menu.png");
     background-repeat: no-repeat;    
     background-position: center;
