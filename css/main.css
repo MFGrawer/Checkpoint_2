@@ -57,10 +57,11 @@ h2 {
 }
 
 .especies {
-    width: 100%;
+    width: 100vw;
     height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 90px;
     margin-bottom: 140px;
 }
