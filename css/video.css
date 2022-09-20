@@ -7,32 +7,36 @@
     font-family: 'roboto', sans-serif;
 }
 
-.cabeçalho {
-    width: 100vw;
-    height: 120px;
+.cabecalho {
+    width: 1440px    ;
+    height: 200px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;  
-    position: relative;
     background-color: #FFFFFF;
 }
-/**.cabeçalho_menu_hamburguer {
-    width: 24px;
-    height: 24px;
-    background-image: url("https://raw.githubusercontent.com/MFGrawer/Checkpoint_2/main/imagens/menu.png");
-    background-repeat: no-repeat;    
-    background-position:center;
-    display: inline-block;    
-}**/
-.lista-menu {
-    width: 100vw;
-    height: 70vh;
-    display: none;
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.container_imagem-logo {
+    width: 800px;
+    height: 200px;
+    display: flex;
+} 
+
+
+.container .lista-menu {
+    width: 400px;
+    height: 120px;
+    display: flex;
     position: absolute;
     top: 100%;
     right: 0.5px;
     list-style: none;
+    color: black;
     
 }
 .container_botao:checked~.lista-menu {
@@ -55,45 +59,16 @@
     display: none;
 
 }
-
-.container_imagem-logo {
-    width: 100%;
-    height: 100%;
-    margin-top: 10px;
-    margin-right: -140px;
-
-} 
 .opções {
-    display:flex;
-    align-items: center;
-    width: 50vw;
-    margin-right: 70px;
-}
-
-.opções_item{
-    list-style: none;
-    padding: 0 2em;
-}
-.opções_item a{
-    text-decoration: none;
-    color: #0B4619;
-    font-size: 18px;
-    font-weight: 400;
-}
-.opções_item a:hover{
-    color: fuchsia;
-}
-.home {
-    color: #33BB69;
-    font-size: 18px;
-    font-weight: 400;
-}
-.cabeçalho_menu_hamburguer {
     display: none;
-
 }
+
 
 /** main **/
+
+main {
+    width: 100%;
+}
 
 .costela {
   
@@ -105,7 +80,7 @@
 }
 
 .texto {
-    margin-left: 425px;
+
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -118,7 +93,6 @@
 }
 
 .texto p {
-    margin-right: 425px;
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -130,9 +104,11 @@
 
 
 .video {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 
