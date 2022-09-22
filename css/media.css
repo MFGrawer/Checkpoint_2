@@ -33,11 +33,24 @@
 }
 
 /*main*/
+.banner {
+    gap: 80px;
+}
+
+.banner h1 {
+padding-top: 10px;
+padding-right: 71px;
+padding-left: 72px;
+}
+
 .especies {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-evenly;
+    gap: 70px;
+
 }
 .card {
     width: 23%;
