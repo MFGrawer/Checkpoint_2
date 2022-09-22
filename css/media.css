@@ -45,6 +45,7 @@ padding-left: 72px;
 
 .especies {
     width: 100vw;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -57,5 +58,9 @@ padding-left: 72px;
 }
 .card_texto {
     width:23%;
+}
+main {
+    width: 100vw;
+    height: auto;
 }
 }
