@@ -8,7 +8,7 @@
 }
 
 .cabecalho {
-    width: 1440px;
+    width: 100vw;
     height: 200px;
     display: flex;
     flex-direction: row;
@@ -25,8 +25,10 @@
 
 .container_imagem-logo {
     width: 800px;
-    height: 200px;
     display: flex;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 150px;
 } 
 
 /*
@@ -186,18 +188,11 @@ footer {
     text-align: right;
   }
   
-  .footer img .footer__autor__nome {
-  }
-  
-  .footer__autor__nome h4 {
-  }
-  
   .footer__redes__sociais {
     display: flex;
     flex-direction: row;
     padding-top: 12px;
     justify-content: flex-start;
-    
   }
   
   .footer__redes__sociais img:first-child {

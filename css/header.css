@@ -9,11 +9,11 @@
 
 .cabeçalho {
     width: 100vw;
-    height: 120px;
+    height: 200px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;  
+    justify-content: space-between;  
     position: relative;
     background-color: #FFFFFF;
 }
@@ -49,14 +49,14 @@
     justify-content: center;    
 }
 .lista-menu_item a:hover {
-    color: fuchsia;
+    color: #33BB69;
 }
 #menu {
     display: none;
 
 }.container_imagem-logo {
-    width: 100%;
-    height: 100%;
+    width: 800px;
+    
 } 
 .opções {
     display: none;
