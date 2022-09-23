@@ -53,9 +53,12 @@
 }
 #menu {
     display: none;
-
-}.container_imagem-logo {
-    width: 800px;
+}
+.container {
+   width: 90vw;
+}
+.container_imagem-logo {
+    width: 100vw;
     
 } 
 .opções {
