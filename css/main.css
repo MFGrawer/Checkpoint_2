@@ -22,10 +22,12 @@
     color: transparent;
     text-shadow: #33BB69 1px 1px 1px;
     color: transparent;
-    text-align: left;
+    text-align: center;
     padding-top: 10px;
     padding-right: 71px;
     padding-left: 72px;
+    align-items: center;
+
 }
 
 .banner p {
@@ -52,8 +54,10 @@
     margin-top: 87px;
     color: #FFFFFF;
     font-size: 22px;
-    
+    padding-right: 47px;
+    padding-left: 48px;
 }
+
 
 h2 {
     font-weight: 900;
@@ -68,10 +72,10 @@ h2 {
     width: 100vw;
     height: auto;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
     gap: 90px;
     margin-bottom: 140px;
 }
@@ -79,7 +83,11 @@ h2 {
 .card {
     width: 329px;
     height: 510px;
+    display: flex;
+    justify-content: center;
+    
 }
+
 
 .card img {
     border-radius: 12px;
@@ -104,6 +112,7 @@ h2 {
 
 .card_texto {
     position: absolute;
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 329px;
@@ -111,10 +120,11 @@ h2 {
     background-color: #F4F4F4;
     align-content: center;
     margin: 40px;
-    margin-top: 10px;
+    margin-top: 290px;
     border: 2px solid #33BB69;
     border-radius: 20px;
     text-align: center;
+
 }
 
 .card_texto p {
@@ -129,6 +139,7 @@ h2 {
     text-align: left;
     padding-top: 16px;
     padding-left: 16px;
+    color: #0B4619;
 }
 
 .card_texto button {
@@ -139,6 +150,7 @@ h2 {
     border-radius: 5px;
     border: none;
     font-size: 22px;
+    align-content: flex-end;
     margin-bottom: 15px;
     margin-top: 20px;
 }
