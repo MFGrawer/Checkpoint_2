@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden !important; 
+  }
+  
 .banner {
     width: 100vw;
     height: 923px;
@@ -125,6 +129,7 @@ h2 {
     border-radius: 20px;
     text-align: center;
 
+
 }
 
 .card_texto p {
@@ -136,9 +141,9 @@ h2 {
 }
 
 .card_texto h3 {
-    text-align: left;
+    text-align: center;
     padding-top: 16px;
-    padding-left: 16px;
+    
     color: #0B4619;
 }
 
@@ -153,6 +158,12 @@ h2 {
     align-content: flex-end;
     margin-bottom: 15px;
     margin-top: 20px;
+    
+}
+
+.card_texto button a {
+    text-decoration: none;
+    color: #F4F4F4;
 }
 
 /**
