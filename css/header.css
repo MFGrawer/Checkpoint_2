@@ -58,12 +58,21 @@
 }
 #menu {
     display: none;
+<<<<<<< HEAD
     
 
 }.container_imagem-logo {
     width: 100%;
     height: 100%;
     margin-left: -60px;
+=======
+}
+.container {
+   width: 90vw;
+}
+.container_imagem-logo {
+    width: 100vw;
+>>>>>>> 7ee76ab7c4c591745e2d6b6eb0416bec3641ca99
     
 } 
 .opções {

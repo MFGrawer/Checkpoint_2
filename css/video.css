@@ -30,7 +30,7 @@
     align-items: center;
     align-content: center;
     margin-top: -30px;
-} 
+}
 
 /*
 .container{
@@ -53,7 +53,7 @@
 
 .lista-menu_link {
     text-decoration: none;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -61,7 +61,7 @@
     padding: 0.5em;
     background-color: #33BB69;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .lista-menu_item a:hover {
@@ -80,17 +80,19 @@
     margin-right: 90px;
 }
 
-.opções_item{
+.opções_item {
     list-style: none;
     padding: 0 2em;
 }
-.opções_item a{
+
+.opções_item a {
     text-decoration: none;
     color: #0B4619;
     font-size: 20px;
     font-weight: 400;
 }
-.opções_item a:hover{
+
+.opções_item a:hover {
     color: #33BB69;
     font-size: 24px;
 }
@@ -102,12 +104,12 @@ main {
 }
 
 .costela img {
-  
+
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    
+
 
 }
 
@@ -161,54 +163,71 @@ footer {
     height: 364px;
     background: #0B4619;
     padding: 15px;
-  }
-  
-  .footer_geral {
+}
+
+.footer_geral {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     align-content: flex-start;
-  }
-  
+}
 
-  .footer_autor_nome {
+
+.footer_autor_nome {
     width: 100%;
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
     padding-top: 50px;
+<<<<<<< HEAD
   }
+=======
+    text-align: center;
+    /*padding-left: 83px;
+    padding-right: 83px;*/
+}
+>>>>>>> 7ee76ab7c4c591745e2d6b6eb0416bec3641ca99
 
-  .footer_autor_nome h4 {
+.footer_autor_nome h4 {
     font-size: 24px;
     padding-bottom: 15px;
+<<<<<<< HEAD
     text-align: center;
 
+=======
+    font-weight: 400;
+    color: #FFFFFF;
+>>>>>>> 7ee76ab7c4c591745e2d6b6eb0416bec3641ca99
 }
-  
-  .footer__autor__descricao {
-    width: 50%;
+
+.footer_geral p {
+    color: rgba(255, 255, 255, 0.75);
   }
-  
-  .footer__autor__descricao:nth-child(2) {
+
+.footer__autor__descricao {
+    width: 50%;
+}
+
+.footer__autor__descricao:nth-child(2) {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
     text-align: right;
-  }
-  
-  .footer_redes_sociais {
+}
+
+.footer_redes_sociais {
     display: flex;
     flex-direction: row;
     padding-top: 20px;
     gap: 15px;
-    justify-content: flex-start;
-  }
-  
-  .footer__redes__sociais img:first-child {
+    justify-content: center;
+}
+
+.footer__redes__sociais img:first-child {
     padding-right: 16px;
+<<<<<<< HEAD
   }
 
   
@@ -236,15 +255,20 @@ footer {
 
   
   .footer__checkpoint p {
+=======
+}
+
+.footer__checkpoint p {
+>>>>>>> 7ee76ab7c4c591745e2d6b6eb0416bec3641ca99
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: rgba(255, 255, 255, 0.3);
     padding-bottom: 80px;
-  }
+}
 
-  .checkpoint_2 {
+.checkpoint_2 {
     display: flex;
     flex-direction: column;
     font-size: 22px;
@@ -253,7 +277,15 @@ footer {
     align-content: flex-end;
     align-items: center;
     margin-top: 100px;
+<<<<<<< HEAD
     color: rgba(255, 255, 255, 0.3);
     
   }
   
+=======
+    color: rgba(255, 255, 255, 0.5);
+    font-style: normal;
+    line-height: 28px;
+    padding-top: 5px;
+}
+>>>>>>> 7ee76ab7c4c591745e2d6b6eb0416bec3641ca99

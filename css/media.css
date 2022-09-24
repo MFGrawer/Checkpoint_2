@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (min-width: 1440px) {
 /*header*/
 
@@ -13,43 +14,127 @@
     justify-content: flex-end;
     margin-right: 70px;
 }
+=======
+@media screen and (min-width: 1024px) {
+>>>>>>> 7ee76ab7c4c591745e2d6b6eb0416bec3641ca99
 
-.opções_item{
-    list-style: none;
-    padding: 0 2em;
-}
+    /*header*/
+    .opções {
+        display: flex;
+        align-items: center;
+        width: 50vw;
+        justify-content: flex-end;
+        margin-right: 70px;
+    }
 
-.opções_item a{
-    text-decoration: none;
-    color: #0B4619;
-    font-size: 18px;
-    font-weight: 400;
-}
+    .opções_item {
+        list-style: none;
+        padding: 0 2em;
+    }
 
+<<<<<<< HEAD
 .opções_item a:hover{
     color: #33BB69;
     font-size: 24px;
 }
+=======
+    .opções_item a {
+        text-decoration: none;
+        color: #0B4619;
+        font-size: 18px;
+        font-weight: 400;
+    }
+>>>>>>> 7ee76ab7c4c591745e2d6b6eb0416bec3641ca99
 
-.home {
-    font-size: 18px;
-    font-weight: 400;
-}
-.cabeçalho_menu_hamburguer {
-    display: none;
-}
+    .opções_item a:hover {
+        color: #33BB69;
+    }
 
-/*main*/
-.banner {
-    gap: 80px;
-}
+    .home {
+        font-size: 18px;
+        font-weight: 400;
+    }
 
-.banner h1 {
-padding-top: 10px;
-padding-right: 71px;
-padding-left: 72px;
-}
+    .cabeçalho_menu_hamburguer {
+        display: none;
+    }
 
+    /*main*/
+    .banner {
+        gap: 80px;
+    }
+
+    .banner h1 {
+        padding-top: 10px;
+        padding-right: 71px;
+        padding-left: 72px;
+    }
+
+    .especies {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 70px;
+
+    }
+
+    .card {
+        width: 23%;
+        height: 510px;
+    }
+
+    .card_texto {
+        width: 23%;
+        height: 255px;
+    }
+
+    .card img {
+        width: 99%;
+        /*height: 255px;*/
+    }
+
+    main {
+        width: 100vw;
+        height: auto;
+    }
+
+    /*footer*/
+
+    footer {
+        width: 100vw;
+        height: 364px;
+        padding: 15px;
+    }
+
+    .footer_geral {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        align-content: flex-start;
+    }
+
+    .footer_redes_sociais {
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .footer_autor_nome {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+<<<<<<< HEAD
 .especies {
     width: 100vw;
     display: flex;
@@ -195,3 +280,7 @@ footer {
 
 }
 
+=======
+
+}
+>>>>>>> 7ee76ab7c4c591745e2d6b6eb0416bec3641ca99
