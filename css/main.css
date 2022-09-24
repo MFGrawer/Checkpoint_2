@@ -73,16 +73,9 @@ h2 {
     height: auto;
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     justify-content: center;
     align-items: center;
     align-content: center;
-=======
-    /*flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;*/
->>>>>>> 7ee76ab7c4c591745e2d6b6eb0416bec3641ca99
     gap: 90px;
     margin-bottom: 140px;
 }
@@ -100,12 +93,12 @@ h2 {
     border-radius: 12px;
     background: linear-gradient(0deg, #F4F4F4, #F4F4F4);
     mix-blend-mode: normal;
-    /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
 }
 
 .card_img {
-    /*position: relative;*/
+    position: relative;
     width: 100%;
     height: 255px;
     display: flex;
@@ -160,16 +153,6 @@ h2 {
     align-content: flex-end;
     margin-bottom: 15px;
     margin-top: 20px;
-}
-
-.img-1 {
-    background-image: url("https://images.unsplash.com/photo-1602424847711-2d2e831afc5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    flex-direction: column;
-    align-items: center;
-    height: 510px;
 }
 
 /**
